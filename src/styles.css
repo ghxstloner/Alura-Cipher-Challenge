@@ -58,6 +58,7 @@ button {
 }
 
 .input {
+  width: 95%;
   font-size: 20px;
   font-family: monospace;
   height: 200px;
@@ -101,6 +102,15 @@ button {
 @media (max-width: 500px) {
   .big-heading {
     font-size: 1.5rem !important;
+  }
+  .input {
+    width: 95%;
+  }
+}
+
+@media (min-width: 507) {
+  .input {
+    width: 97%;
   }
 }
 
