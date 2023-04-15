@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura Cipher</title>
+    <link rel="stylesheet" href="src/normalize.css" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title-program">Programa de Criptografía</h1>
+      <p class="paragraph">
+        Este programa te permite encriptar y desencriptar mensajes usando un
+        algoritmo simple.
+      </p>
+      <div class="row">
+        <div class="col">
+          <textarea
+            class="input"
+            type="text"
+            id="input"
+            placeholder="Escribe tu mensaje aquí"></textarea>
+          <p class="advice">
+            <img src="public/infoIcon.svg" alt="info" /> Solo letras minúsculas
+            y sin acentos
+          </p>
+          <button class="btn" id="encryptBtn">Encriptar</button>
+          <button class="btn" id="decryptBtn">Desencriptar</button>
+        </div>
+        <div class="col">
+          <textarea
+            class="input"
+            type="text"
+            id="output"
+            placeholder="Aquí aparecerá tu resultado"
+            readonly></textarea>
+          <button class="btn" id="copyBtn">Copiar</button>
+          <button class="btn" id="clear">Limpiar</button>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>Acerca de</h6>
+            <p class="text-justify">
+              <i>Alura CHALLENGE </i> | Este es el primer challenge para
+              resolver del Oracle ONE. Se realizó utilizando muchos ejemplos que
+              pude observar dentro de las clases preparatorias. Se basa en un
+              encriptador sencillo haciendo uso de HTML, CSS y el lenguaje de
+              programación JavaScript.
+            </p>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">
+              &copy; 2023 Creado por
+              <a href="https://github.com/ghxstloner" target="_blank"
+                >Yoiner Moreno</a
+              >.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script/main.js" type="module"></script>
+  </body>
+</html>
